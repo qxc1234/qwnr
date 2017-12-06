@@ -1,0 +1,124 @@
+*{
+	margin:0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+}
+.head{
+	height: 83px;
+	/*background: blue;*/
+	border-bottom: 5px solid #ff464e;
+}
+.container{
+	height: 78px;
+	/*background:yellow;*/
+}
+.lefts{
+	height: 30px;
+	/*background: green;*/
+	margin-top: 20px;
+}
+.lefts ul li{
+	width: 143px;
+	float: left;
+	border-right: 1px dotted #dadada;
+	line-height: 30px;
+	text-align: center;
+	font-size: 20px;
+	color: #505050;
+}
+/*身体*/
+.bodys{
+	height: 548px;
+	background:#f6f6f6;
+}
+.bodys .container{
+	height: 520px;
+	background:#fff;
+	margin-top: 20px;
+	border:1px solid #e2e2e2;
+}
+.bodys .container .ts{
+	height: 64px;
+	/*background: blue;*/
+	border-bottom: 1px solid #e2e2e2;
+}
+.le{
+	height: 25px;
+	/*background: red;*/
+	margin-top: 25px;
+}
+.le p{
+	font-size: 12px;
+	color: #666;
+	margin-left: 5px;
+}
+.le p span{
+	font-size: 17px;
+	color:#ff6eb7;
+}
+.ri{
+	height: 25px;
+	/*background: red;*/
+	margin-top: 25px;
+}
+.ri ul li{
+	font-size: 16px;
+	float: left;
+}
+.ri ul li a{
+	display: inline-block;
+	color: #666;
+}
+.bodys .container .lef{
+	height: 370px;
+	/*background: red;*/
+	margin-top: 15px;
+} 
+.bodys .container .lef input{
+	margin-top: 30px;
+	height: 39px;
+	width: 260px;
+	margin-left: 5px;
+	text-indent: 50px;
+}
+.bodys .container .lef .li{
+	background: #ff4251;
+	color: #fff;
+	border: 0;
+	text-indent: 0;
+}
+.bodys .container .rig{
+	height: 350px;
+	/*background: red;*/
+	margin-top: 35px;
+	border-bottom: 2px double #e2e2e2;
+}
+
+/*底部*/
+.foot{
+	height: 86px;
+	background:#f6f6f6;
+}
+.foot .container{
+	height: 86px;
+	/*background: blue;*/
+}
+.foot .container .wz{
+	height: 25px;
+	/*background: red;*/
+}
+.foot .container .wz p{
+	font-size: 13px;
+	line-height: 25px;
+	color: #5e5e5e;
+}
+.foot .container .bq{
+	height: 15px;
+	/*background: yellow;*/
+	margin-top: 40px;
+}
+.foot .container .bq p{
+	font-size: 13px;
+	color: #666;
+}
